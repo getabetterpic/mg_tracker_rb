@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    mg_tracker (0.0.0)
+    mg_tracker (0.0.1)
       httparty (~> 0.13)
 
 GEM
@@ -93,7 +93,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  awesome_print
+  awesome_print (~> 1.6)
   bundler (~> 1.11)
   guard-rspec (~> 4.6)
   guard-rubocop (~> 1.2)
