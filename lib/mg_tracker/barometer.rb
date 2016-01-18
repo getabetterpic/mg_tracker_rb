@@ -1,8 +1,8 @@
 require 'mg_tracker/weather'
 
 module MgTracker
+  # `Barometer` gathers barometer-related data
   class Barometer
-
     attr_reader :city, :state, :weather
 
     def initialize(options = {})

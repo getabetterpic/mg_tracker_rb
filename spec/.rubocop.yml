@@ -1,0 +1,11 @@
+inherit_from:
+  - ../.rubocop.yml
+
+Lint/ParenthesesAsGroupedExpression:
+  Enabled: false
+
+StringLiterals:
+  Enabled: false
+
+Style/BlockDelimiters:
+  Enabled: false

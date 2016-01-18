@@ -32,5 +32,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "awesome_print"
   spec.add_development_dependency "guard-rspec", "~> 4.6"
   spec.add_development_dependency "webmock", "~> 1.22"
+  spec.add_development_dependency "rubocop-rspec", "~> 1.3"
+  spec.add_development_dependency "rubocop", "~> 0.35"
+  spec.add_development_dependency "guard-rubocop", "~> 1.2"
   spec.add_dependency "httparty", "~> 0.13"
 end

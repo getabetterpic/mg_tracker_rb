@@ -3,9 +3,9 @@ require 'mg_tracker/weather'
 
 RSpec.describe MgTracker::Weather do
   context 'barometer data' do
-
     let(:ws) { instance_double('MgTracker::WeatherService') }
     let(:city_state) do { city: 'Kennesaw', state: 'GA' } end
+    let(:weather) { described_class.new(ws, city_state) }
 
     before :each do
       allow(ws).to receive(:barometer_in).and_return('30.01')
@@ -14,8 +14,6 @@ RSpec.describe MgTracker::Weather do
       allow(ws).to receive(:city=)
       allow(ws).to receive(:state=)
     end
-
-    let(:weather) { MgTracker::Weather.new(ws, city_state) }
 
     it 'returns baro data in inches' do
       expect(weather.barometer_in).to eq('30.01')

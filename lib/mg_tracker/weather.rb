@@ -1,9 +1,10 @@
 require 'mg_tracker/weather_service'
 
 module MgTracker
+  # `Weather` makes various data about the weather available
   class Weather
-
     attr_accessor :city, :state
+    attr_reader :service
 
     def initialize(service = WeatherService.new, options = {})
       @service = service
@@ -11,16 +12,10 @@ module MgTracker
       @state = service.state = options[:state] || 'CA'
     end
 
-    def barometer_in(options = {})
-      @service.barometer_in
-    end
-
-    def barometer_mb
-      @service.barometer_mb
-    end
-
-    def barometer_trend
-      @service.barometer_trend
+    %w(in mb trend).each do |value|
+      define_method("barometer_#{value}") do
+        service.send("barometer_#{value}")
+      end
     end
   end
 end

@@ -1,9 +1,9 @@
 require 'spec_helper'
-require 'mg_tracker/barometer'
+require 'mg_tracker'
 
 RSpec.describe MgTracker::Barometer do
   let(:weather) { instance_double 'MgTracker::Weather' }
-  let(:barometer) { MgTracker::Barometer.new(weather: weather, city: 'Kennesaw', state: 'GA') }
+  let(:barometer) { described_class.new(weather: weather, city: 'Kennesaw', state: 'GA') }
 
   before :each do
     allow(weather).to receive(:city=)
