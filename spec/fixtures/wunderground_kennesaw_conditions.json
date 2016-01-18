@@ -1,0 +1,94 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Kennesaw, GA",
+		"city":"Kennesaw",
+		"state":"GA",
+		"state_name":"Georgia",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"30144",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"34.03419876",
+		"longitude":"-84.58350372",
+		"elevation":"325.00000000"
+		},
+		"observation_location": {
+		"full":"Windsor Glen, Kennesaw, Georgia",
+		"city":"Windsor Glen, Kennesaw",
+		"state":"Georgia",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"34.057915",
+		"longitude":"-84.597649",
+		"elevation":"1119 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KGAKENNE36",
+		"observation_time":"Last Updated on January 18, 8:33 AM EST",
+		"observation_time_rfc822":"Mon, 18 Jan 2016 08:33:11 -0500",
+		"observation_epoch":"1453123991",
+		"local_time_rfc822":"Mon, 18 Jan 2016 08:46:46 -0500",
+		"local_epoch":"1453124806",
+		"local_tz_short":"EST",
+		"local_tz_long":"America/New_York",
+		"local_tz_offset":"-0500",
+		"weather":"Partly Cloudy",
+		"temperature_string":"26.1 F (-3.3 C)",
+		"temp_f":26.1,
+		"temp_c":-3.3,
+		"relative_humidity":"70%",
+		"wind_string":"From the NNW at 6.3 MPH",
+		"wind_dir":"NNW",
+		"wind_degrees":337,
+		"wind_mph":6.3,
+		"wind_gust_mph":0,
+		"wind_kph":10.1,
+		"wind_gust_kph":0,
+		"pressure_mb":"1022",
+		"pressure_in":"30.18",
+		"pressure_trend":"+",
+		"dewpoint_string":"18 F (-8 C)",
+		"dewpoint_f":18,
+		"dewpoint_c":-8,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"19 F (-7 C)",
+		"windchill_f":"19",
+		"windchill_c":"-7",
+		"feelslike_string":"19 F (-7 C)",
+		"feelslike_f":"19",
+		"feelslike_c":"-7",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"--",
+		"UV":"0","precip_1hr_string":"-999.00 in ( 0 mm)",
+		"precip_1hr_in":"-999.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/GA/Kennesaw.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KGAKENNE36",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=34.057915,-84.597649",
+		"nowcast":""
+	}
+}
