@@ -41,3 +41,5 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+This gem uses the [Weather API](http://www.wunderground.com/weather/api/d/docs) from Weather
+Underground and is subject to the [Weather Underground API terms and conditions](http://www.wunderground.com/weather/api/d/terms.html).
