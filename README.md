@@ -21,11 +21,22 @@ Or install it yourself as:
 
 ## Usage
 
+A `config/ws_api_key.yml` file will need to be set on your project's root, with a single key/value
+pair like:
+
+``` yaml
+WS_API_KEY: 'yourkeyhere'
+```
+
+Then run `bin/console` and type:
+
 ``` ruby
-> barometer = Barometer.new
+> barometer = MgTracker::Barometer.new(city: 'Atlanta', state: 'GA')
 > barometer.inches
   => '30.01'
 ```
+
+`MgTracker::Barometer#new` takes a city and state and returns the barometer readings for that city.
 
 ## Development
 
