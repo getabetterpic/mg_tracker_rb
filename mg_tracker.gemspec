@@ -6,8 +6,8 @@ require 'mg_tracker/version'
 Gem::Specification.new do |spec|
   spec.name          = "mg_tracker"
   spec.version       = MgTracker::VERSION
-  spec.authors       = ["="]
-  spec.email         = ["="]
+  spec.authors       = ["getabetterpic"]
+  spec.email         = ["dan@getabetterpic.com"]
 
   spec.summary       = "Migraine tracking and prediction."
   spec.homepage      = "https://github.com/getabetterpic/mg-tracker-rb"
@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.11"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
-  spec.add_development_dependency "awesome_print"
+  spec.add_development_dependency "awesome_print", "~> 1.6"
   spec.add_development_dependency "guard-rspec", "~> 4.6"
   spec.add_development_dependency "webmock", "~> 1.22"
   spec.add_development_dependency "rubocop-rspec", "~> 1.3"
